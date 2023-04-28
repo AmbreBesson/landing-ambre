@@ -1,0 +1,113 @@
+/* Write some CSS below */
+body {
+  background-color: #7F8CAC;
+  font-family: Buda;
+  color: #F5E8D5;
+  font-size: 48px;
+  text-align: center;
+}
+
+h1, h3 {
+  font-family: Buda;
+}
+
+h2 {
+  font-family: poppins;
+  font-size: 28px;
+}
+
+a {
+  color: #D48F8B
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 24px;
+  transition: .3s;
+}
+
+p {
+  color: #F5E8D5;
+  font-family: poppins;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/FondFleur.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.card-white {
+  background: #D48F8B;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white p {
+  margin-bottom: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.button-blue{
+  background-color: #D48F8B;
+  color: #F5E8D5;
+  padding: 16px 48px;
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  border: none;
+
+}
+
+.button-blue :hover{
+  background-color: #238CEC;
+  color: white;
+}
+
+.button {
+  background-color: #F5E8D5;
+  color: #D48F8B;
+  padding: 16px 48px;
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button :hover{
+  background-color: #238CEC;
+  color: white;
+}
+
+.footer {
+  background: #D48F8B;
+  text-align: center;
+  padding: 6px 0;
+  margin-top: 200px;
+}
+
+.footer p {
+  color: #F5E8D5;
+  font-size: 6px 0;
+}
